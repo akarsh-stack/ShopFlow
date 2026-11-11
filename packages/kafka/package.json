@@ -1,0 +1,19 @@
+{
+  "name": "@shopflow/kafka",
+  "version": "0.0.1",
+  "main": "./dist/index.js",
+  "types": "./dist/index.d.ts",
+  "type": "module",
+  "scripts": {
+    "build": "tsc",
+    "check-types": "tsc --noEmit",
+    "create-topics": "pnpm dlx tsx src/create-topics.ts"
+  },
+  "devDependencies": {
+    "@shopflow/typescript-config": "workspace:*",
+    "@types/node": "^24.3.1"
+  },
+  "dependencies": {
+    "kafkajs": "^2.2.4"
+  }
+}

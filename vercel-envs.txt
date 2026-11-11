@@ -1,0 +1,16 @@
+# Vercel environment variables (copy into each Vercel project -> Settings -> Environment Variables)
+
+# For apps/client (Production)
+NEXT_PUBLIC_PRODUCT_SERVICE_URL=https://<product-service-url>
+NEXT_PUBLIC_ORDER_SERVICE_URL=https://<order-service-url>
+NEXT_PUBLIC_AUTH_SERVICE_URL=https://<auth-service-url>
+NEXT_PUBLIC_PAYMENT_SERVICE_URL=https://<payment-service-url>
+NEXT_PUBLIC_STRIPE_PUBLISHABLE_KEY=your-stripe-publishable-key
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=your-cloudinary-cloud-name
+
+# For apps/admin (Production)
+NEXT_PUBLIC_PRODUCT_SERVICE_URL=https://<product-service-url>
+NEXT_PUBLIC_ORDER_SERVICE_URL=https://<order-service-url>
+NEXT_PUBLIC_AUTH_SERVICE_URL=https://<auth-service-url>
+NEXT_PUBLIC_PAYMENT_SERVICE_URL=https://<payment-service-url>
+NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=your-cloudinary-cloud-name

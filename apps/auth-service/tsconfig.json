@@ -1,0 +1,3 @@
+{
+  "extends": "@shopflow/typescript-config/base.json"
+}

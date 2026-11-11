@@ -1,0 +1,15 @@
+node_modules
+.next
+dist
+build
+.dockerignore
+Dockerfile
+docker-compose.yml
+.env
+.env.*
+!.env.example
+.git
+.gitignore
+npm-debug.log
+README.md
+LICENSE
